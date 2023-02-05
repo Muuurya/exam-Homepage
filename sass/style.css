@@ -64,6 +64,9 @@
   background-color: #ffffff;
   border: 1px solid #fcb72b;
 }
+.container-fluid header i {
+  display: none;
+}
 .container-fluid .wrapper1 {
   width: 100%;
 }
@@ -421,4 +424,660 @@
 }
 .container-fluid footer .icons img {
   cursor: pointer;
+}
+@media (max-width: 990px) {
+  .container-fluid header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container-fluid header .card1 {
+    padding: 25px 150px 25px 70px;
+  }
+  .container-fluid header button {
+    margin-right: 0px;
+    padding: 14px 39px;
+  }
+  .container-fluid .wrapper1 {
+    width: 100%;
+  }
+  .container-fluid .wrapper1 .card2 {
+    width: 100%;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img h1 {
+    font-size: 40px;
+    width: 500px;
+    padding-top: 140px;
+    padding-left: 100px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 {
+    display: flex;
+    gap: 20px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 .line1 {
+    width: 150px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 p {
+    font-size: 13px;
+    width: 350px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 .line2 {
+    width: 300px;
+    padding-top: 75px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img button {
+    margin-left: 170px;
+  }
+  .container-fluid .wrapper2 {
+    width: 100%;
+  }
+  .container-fluid .wrapper2 .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 h1 {
+    text-align: center;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 p {
+    text-align: center;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 img {
+    margin-left: 125px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card-3 {
+    padding-left: 200px;
+  }
+  .container-fluid .wrapper3 {
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card4 .row {
+    padding-left: 100px;
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 p {
+    font-size: 12px;
+    width: 320px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .bg-img2 {
+    width: 550px;
+    height: 498px;
+    background-size: 350px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .bg-img2 img {
+    padding-top: 200px;
+    margin-left: -65px;
+    width: 430px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .mask {
+    display: none;
+  }
+  .container-fluid .wrapper3 .card5 .row {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 p {
+    font-size: 12px;
+    width: 320px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .mask2 {
+    display: none;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .bg-img2 {
+    width: 650px;
+    height: 498px;
+    background-size: 350px;
+  }
+  .container-fluid .wrapper3 .card6 .row {
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 p {
+    font-size: 12px;
+    width: 320px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .bg-img2 {
+    width: 550px;
+    height: 498px;
+    background-size: 350px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .bg-img2 img {
+    padding-top: 100px;
+    margin-left: -50px;
+    width: 410px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .mask {
+    display: none;
+  }
+  .container-fluid .wrapper4 {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .container-fluid .wrapper4 .bg-img3 {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 h1 {
+    font-size: 35px;
+    width: 400px;
+    padding-left: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .container-fluid header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container-fluid header .card1 {
+    padding: 25px 50px 25px 70px;
+  }
+  .container-fluid header button {
+    margin-right: 25px;
+    padding: 14px 39px;
+  }
+  .container-fluid .wrapper1 {
+    width: 100%;
+  }
+  .container-fluid .wrapper1 .card2 {
+    width: 100%;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img h1 {
+    font-size: 35px;
+    width: 520px;
+    padding-top: 150px;
+    padding-left: 220px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 10px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 .line1 {
+    width: 100px;
+    display: none;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 p {
+    font-size: 12px;
+    width: 500px;
+    text-align: center;
+    margin-left: 120px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 .line2 {
+    padding-top: 0px;
+    display: none;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img button {
+    margin-left: 280px;
+  }
+  .container-fluid .wrapper2 {
+    width: 100%;
+  }
+  .container-fluid .wrapper2 .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 h1 {
+    text-align: center;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 p {
+    text-align: center;
+    width: 330px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 img {
+    margin-left: 125px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card-3 {
+    padding-left: 200px;
+  }
+  .container-fluid .wrapper3 {
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card4 .row {
+    padding-left: 50px;
+    width: 100%;
+    display: block;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 {
+    padding-left: 0;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 p {
+    font-size: 12px;
+    width: 450px;
+    text-align: center;
+    margin-left: 98px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 .btn-1 {
+    margin-left: 250px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 {
+    margin-top: 50px;
+    padding-left: 120px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .bg-img2 {
+    width: 550px;
+    height: 498px;
+    background-size: 400px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .bg-img2 img {
+    padding-top: 200px;
+    margin-left: -65px;
+    width: 600px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .mask {
+    display: none;
+  }
+  .container-fluid .wrapper3 .card5 .row {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: block;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 p {
+    font-size: 12px;
+    width: 500px;
+    text-align: center;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 .btn-2 {
+    margin-left: 170px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .mask2 {
+    display: none;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .bg-img2 {
+    width: 950px;
+    height: 498px;
+    background-size: 489px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .bg-img2 img {
+    width: 700px;
+  }
+  .container-fluid .wrapper3 .card6 {
+    margin-top: 100px;
+  }
+  .container-fluid .wrapper3 .card6 .row {
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 p {
+    font-size: 12px;
+    width: 500px;
+    text-align: center;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 .btn-3 {
+    margin-left: 170px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 {
+    margin-top: 50px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .bg-img2 {
+    width: 550px;
+    height: 498px;
+    background-size: 489px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .bg-img2 img {
+    padding-top: 100px;
+    margin-left: -50px;
+    width: 700px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .mask {
+    display: none;
+  }
+  .container-fluid .wrapper4 {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .container-fluid .wrapper4 .bg-img3 {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 h1 {
+    font-size: 30px;
+    width: 400px;
+    margin-left: 120px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 .content {
+    margin-top: -100px;
+    margin-left: 190px;
+  }
+  .container-fluid footer {
+    width: 100%;
+  }
+  .container-fluid footer .card5 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  .container-fluid footer .card5 img {
+    padding-left: 50px;
+  }
+  .container-fluid footer .card5 ul {
+    display: flex;
+    gap: 15px;
+  }
+}
+@media (max-width: 447px) {
+  .container-fluid header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container-fluid header .card1 {
+    padding: 25px 50px 25px 0px;
+  }
+  .container-fluid header .card1 ul {
+    display: none;
+  }
+  .container-fluid header .card1 img {
+    margin-left: -50px;
+  }
+  .container-fluid header button {
+    margin-right: 25px;
+    padding: 14px 39px;
+    display: none;
+  }
+  .container-fluid header i {
+    display: block;
+    font-size: 30px;
+    color: #fcb72b;
+    margin-left: 30px;
+  }
+  .container-fluid .wrapper1 {
+    width: 100%;
+  }
+  .container-fluid .wrapper1 .card2 {
+    width: 100%;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img h1 {
+    font-size: 35px;
+    width: 350px;
+    padding-top: 150px;
+    padding-left: 50px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 10px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 .line1 {
+    width: 100px;
+    display: none;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 p {
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img .cards1 .line2 {
+    padding-top: 0px;
+    display: none;
+  }
+  .container-fluid .wrapper1 .card2 .bg-img button {
+    margin-left: 100px;
+  }
+  .container-fluid .wrapper2 {
+    width: 100%;
+  }
+  .container-fluid .wrapper2 .wrap1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 h1 {
+    text-align: center;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 p {
+    text-align: center;
+    width: 330px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card3 img {
+    margin-left: 125px;
+  }
+  .container-fluid .wrapper2 .wrap1 .card-3 {
+    padding-left: 0px;
+  }
+  .container-fluid .wrapper3 {
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card4 .row {
+    padding-left: 0px;
+    width: 100%;
+    display: block;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 {
+    padding-left: 0;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    margin-left: 35px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 p {
+    font-size: 12px;
+    width: 350px;
+    text-align: center;
+    margin-left: 35px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-6 .btn-1 {
+    margin-left: 120px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 {
+    margin-top: 50px;
+    padding-left: 70px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .bg-img2 {
+    width: 550px;
+    height: 498px;
+    background-size: 300px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .bg-img2 img {
+    padding-top: 200px;
+    margin-left: -65px;
+    width: 400px;
+  }
+  .container-fluid .wrapper3 .card4 .row .col-66 .cards2 .mask {
+    display: none;
+  }
+  .container-fluid .wrapper3 .card5 .row {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: block;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    margin-left: -50px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 p {
+    font-size: 12px;
+    width: 350px;
+    text-align: center;
+    margin-left: -80px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-6 .btn-2 {
+    margin-left: 20px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 {
+    margin-left: -50px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .mask2 {
+    display: none;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .bg-img2 {
+    width: 950px;
+    height: 498px;
+    background-size: 300px;
+  }
+  .container-fluid .wrapper3 .card5 .row .col-67 .cards2 .bg-img2 img {
+    width: 700px;
+  }
+  .container-fluid .wrapper3 .card6 {
+    margin-top: 100px;
+  }
+  .container-fluid .wrapper3 .card6 .row {
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 100%;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 h1 {
+    font-size: 35px;
+    width: 320px;
+    text-align: center;
+    margin-left: -55px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 p {
+    font-size: 12px;
+    width: 390px;
+    text-align: center;
+    margin-left: -100px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-6 .btn-3 {
+    margin-left: 30px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 {
+    margin-top: 50px;
+    margin-left: -50px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .bg-img2 {
+    width: 550px;
+    height: 498px;
+    background-size: 300px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .bg-img2 img {
+    padding-top: 100px;
+    margin-left: -50px;
+    width: 400px;
+  }
+  .container-fluid .wrapper3 .card6 .row .col-68 .cards2 .mask {
+    display: none;
+  }
+  .container-fluid .wrapper4 {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .container-fluid .wrapper4 .bg-img3 {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 h1 {
+    font-size: 30px;
+    width: 400px;
+    margin-left: -50px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .container-fluid .wrapper4 .bg-img3 .cards3 .content {
+    margin-top: -100px;
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .container-fluid footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-fluid footer .card5 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container-fluid footer .card5 img {
+    padding-left: 150px;
+  }
+  .container-fluid footer .card5 ul {
+    display: block;
+    padding-left: 150px;
+    text-align: center;
+    gap: 15px;
+  }
+  .container-fluid footer .card5 ul a {
+    font-size: 30px;
+    margin-left: -25px;
+  }
+  .container-fluid footer .card5 ul li {
+    margin-bottom: 20px;
+  }
+  .container-fluid footer .icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */
