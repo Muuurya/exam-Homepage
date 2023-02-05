@@ -950,7 +950,7 @@
       .wrap1 {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 30px;
+        padding-left: 20px;
         .card3 {
           h1 {
             text-align: center;
@@ -960,7 +960,7 @@
             width: 330px;
           }
           img {
-            margin-left: 125px;
+            margin-left: 110px;
           }
         }
         .card-3 {
@@ -1137,11 +1137,11 @@
         flex-wrap: wrap;
         gap: 20px;
         img {
-          padding-left: 150px;
+          padding-left: 140px;
         }
         ul {
           display: block;
-          padding-left: 150px;
+          padding-left: 140px;
           text-align: center;
           gap: 15px;
           a {
@@ -1156,7 +1156,7 @@
       .icons {
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 150px;
+        margin-left: 140px;
       }
     }
   }
