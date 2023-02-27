@@ -45,7 +45,7 @@
 .container-fluid header .card1 ul a:hover {
   color: #fcb72b;
 }
-.container-fluid header button {
+.container-fluid header .button {
   font-family: "Space-Mono";
   font-style: normal;
   font-weight: 700;
@@ -56,13 +56,25 @@
   background: #fcb72b;
   padding: 14px 39px;
   border: none;
-  margin-right: 165px;
+  margin-right: 0px;
   transition: 0.3s linear;
 }
-.container-fluid header button:hover {
+.container-fluid header .button:hover {
   color: #fcb72b;
   background-color: #ffffff;
   border: 1px solid #fcb72b;
+}
+.container-fluid header .dark {
+  color: white;
+  background-color: black;
+  margin-right: -250px;
+  padding: 2px 5px;
+}
+.container-fluid header .light {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin-right: 100px;
+  padding: 2px 5px;
 }
 .container-fluid header i {
   display: none;
@@ -356,7 +368,7 @@
 }
 .container-fluid .wrapper4 {
   width: 100%;
-  margin-top: 307px;
+  padding-top: 0px;
 }
 .container-fluid .wrapper4 .bg-img3 {
   width: 100%;

@@ -20,8 +20,8 @@
   </head>
   <body>
     <div class="container-fluid">
-      <header>
-        <div class="card1">
+      <header id="headerr">
+        <div class="card1" id="card1.1">
           <a href="#">
             <img src="./images/logo.svg" alt="" />
           </a>
@@ -33,7 +33,9 @@
             <li><a href="#">Careers</a></li>
           </ul>
         </div>
-        <button type="button">Get Scootin</button>
+        <button class="button" type="button">Get Scootin</button>
+        <button onclick="darkmode()" class="dark" type="button">Dark</button>
+        <button onclick="lightmode()" class="light" type="button">Light</button>
         <i class="fa-solid fa-bars"></i>
       </header>
       <div class="wrapper1">
@@ -54,7 +56,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper2">
+      <div class="wrapper2" id="wrapper2.2">
         <div class="wrap1">
           <div class="card3">
             <img src="./images/phone.svg" alt="" />
@@ -85,7 +87,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper3">
+      <div class="wrapper3" id="wrapper3.3">
         <div class="card4">
           <div class="row">
             <div class="col-6 col-sm-12 col-lg-6 col-md-6 col-12">
@@ -153,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper4">
+      <div class="wrapper4" id="wrapper4.4">
         <div class="bg-img3">
           <div class="cards3">
             <h1>Sign up and Scoot off today</h1>
@@ -189,5 +191,6 @@
       </footer>
     </div>
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
